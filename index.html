@@ -21,39 +21,67 @@
         <span class="status-bar__battery-level-half">50%</span>
         <i class="fas fa-battery-half"></i>
       </div>
-      <header class="header">
-        <div class="header__header-column">
-          <h1 class="header__title">Chats</h1>
-        </div>
-
-        <div class="header__header-column">
-          <span class="header__icon">
-            <i class="fas fa-search"></i>
-          </span>
-          <span class="header__icon">
-            <i class="fas fa-comment-medical"></i>
-          </span>
-          <span class="header__icon">
-            <i class="fas fa-cog"></i>
-          </span>
-        </div>
-      </header>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <a href="/friends.html" class="nav__list-link"></a>
-          </li>
-          <li class="nav__list-item">
-            <a href="/index.html" class="nav__list-link"></a>
-          </li>
-          <li class="nav__list-item">
-            <a href="/find.html" class="nav__list-link"></a>
-          </li>
-          <li class="nav__list-item">
-            <a href="/more.html" class="nav__list-link"></a>
-          </li>
-        </ul>
-      </nav>
     </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-comment-medical"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html"> <i class="fas fa-cog"></i> </a>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
+          <a href="chat.html"
+            ><div class="chat__column">
+              <img src="images/hazard.jpg" class="chat__avatar g-avatar" />
+              <div class="chat__content">
+                <span class="chat__username">
+                  Eden Hazard
+                </span>
+                <span class="chat__preview">ㅇㅋㅇㅋ</span>
+              </div>
+            </div>
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>

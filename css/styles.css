@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "main.css";
+@import "friend.css";
+@import "friends.css";
+
+html {
+  max-width: 100%;
+}
+
+body {
+  background-color: white;
+  max-width: 100%;
+  margin: 10px 20px;
+
+  color: #1a1a1a;
+  font-family: "Open Sans", sans-serif;
+  height: 3000px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

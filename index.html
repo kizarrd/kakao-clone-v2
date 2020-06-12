@@ -7,12 +7,13 @@
       src="https://kit.fontawesome.com/9f340f31fc.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__cloack">18:04</span>
+        <span class="status-bar__clock">18:04</span>
       </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
@@ -26,7 +27,6 @@
       <div class="header__header-column">
         <h1 class="header__title">Chats</h1>
       </div>
-
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
@@ -41,22 +41,24 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
-          <a href="chat.html"
-            ><div class="chat__column">
-              <img src="images/hazard.jpg" class="chat__avatar g-avatar" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Eden Hazard
+        <a href="chat.html">
+          <li class="chats__chat friend">
+            <div class="friend__column">
+              <img src="images/hazard.jpg" class="g-avatar friend__avatar" />
+              <div class="friend__content">
+                <span class="friend__name">
+                  HAN Kihoon
                 </span>
-                <span class="chat__preview">ㅇㅋㅇㅋ</span>
+                <span class="friend__bottom-text friend__preview">life..</span>
               </div>
             </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
+            <div class="friend__column">
+              <span class="chat__timestamp">
+                June 12
+              </span>
             </div>
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </main>
     <nav class="nav">
@@ -68,6 +70,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>

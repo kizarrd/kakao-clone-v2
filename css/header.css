@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  /* position: fixed; */
+  position: fixed;
+  width: 100%;
+  /* width: 100px; */
+  left: 0px;
+  top: 0px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 34px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #fcfcfc;
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}

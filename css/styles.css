@@ -6,6 +6,8 @@
 @import "main.css";
 @import "friend.css";
 @import "friends.css";
+@import "find.css";
+@import "more.css";
 
 html {
   max-width: 100%;

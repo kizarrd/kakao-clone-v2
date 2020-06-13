@@ -1,9 +1,7 @@
 .header {
   display: flex;
-  /* position: fixed; */
   position: fixed;
   width: 100%;
-  /* width: 100px; */
   left: 0px;
   top: 0px;
   padding-top: 25px;
@@ -15,6 +13,7 @@
   align-items: center;
   box-sizing: border-box;
   background-color: #fcfcfc;
+  z-index: 1;
 }
 
 .header .header__title {

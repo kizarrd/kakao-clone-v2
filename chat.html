@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Eden Hazard | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">18:04</span>
@@ -39,30 +39,44 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Sunday, June 7, 2020</span>
         <li class="incoming-message message">
           <img src="images/hazard.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
-            <span class="message_auothor">Eden Hazard</span>
+            <span class="message__author">Eden Hazard</span>
             <div class="message__bubble">
-              Yo youre good at soccer.
+              Yo kihoon, I think you are good at soccer.
             </div>
           </div>
-          <span class="message__timestamp">
-            21:31
-          </span>
+          <span class="message__timestamp"> </span>
         </li>
         <li class="forwarding-message message">
           <div class="message__content">
-            <span class="message__timestamp">
-              21:31
-            </span>
+            <span class="message__timestamp"> </span>
             <div class="message__bubble">
-              Thanks, youre good too.
+              Thanks! you are good, too.
             </div>
           </div>
+        </li>
+        <li class="forwarding-message message">
+          <div class="message__content">
+            <span class="message__timestamp"> </span>
+            <div class="message__bubble">
+              I saw you did a great job in the last match.
+            </div>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/hazard.jpg" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__author">Eden Hazard</span>
+            <div class="message__bubble">
+              Right.
+            </div>
+          </div>
+          <span class="message__timestamp"> </span>
         </li>
       </ul>
     </main>
